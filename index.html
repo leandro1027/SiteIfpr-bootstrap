@@ -176,7 +176,7 @@
                                         placeholder="name@example.com">
                                     <h6 class="mt-3">Mensagem:</h6>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    <button type="button" class="btn btn-success mt-3">Enviar</button>
+                                    <button type="button" class="btn btn-primary mt-3">Enviar</button>
                                 </div>
                             </div>
                         </div>
@@ -184,14 +184,99 @@
                     <!--Accordion-->
                 </div>
                 <div class="col">
-                    One of three columns
+                    <!--Card-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TADS</h5>
+                            <p class="card-text">Os cursos tecnológicos são graduações de nível superior, oferecidos
+                                para quem já concluiu o Ensino Médio...s</p>
+                            <!--Off canvas-->
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Leia
+                                mais</button>
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+                                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">TADS</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <p>Por serem cursos de nível superior, os tecnólogos podem dar continuidade aos
+                                        estudos, cursando pós-graduação Lato Sensu (Especialização) e Stricto Sensu
+                                        (Mestrado e Doutorado). Essa modalidade tem como característica o estudo
+                                        aprofundado de uma determinada área, por isso, os cursos têm uma carga horária
+                                        menor em relação aos cursos de bacharelado e licenciatura, tendo a duração média
+                                        de dois anos e meio.</p>
+                                </div>
+                            </div>
+                            <!--Off canvas-->
+                        </div>
+                    </div>
+                    <!--Card-->
                 </div>
                 <div class="col">
-                    One of three columns
+                    <!--Card-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">INSCRIÇÃO</h5>
+                            <p class="card-text">As inscrições para os cursos de graduação e para os cursos técnicos de
+                                nível médio do IFPR foram abertas...</p>
+
+                            <!-- Modal -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Leia mais
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">INSCRIÇÃO</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Ao todo, são oferecidas 4.015 vagas em cursos técnicos de nível médio e
+                                            2.900 vagas em cursos de graduação, que somam 6.915 vagas disponíveis.
+                                            Confira os editais publicados:
+                                            <br>
+                                            <br>
+                                            <a href="">Edital nº 56, de 16 de junho de 2023 – Processo Seletivo IFPR
+                                                2024 – Cursos de Graduação.
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="">Edital nº 57 de 16 de Junho de 2023 – Processo Seletivo IFPR 2024
+                                                – Cursos Técnicos de Nível Médio</a>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal -->
+                        </div>
+                    </div>
+                    <!--Card-->
                 </div>
             </div>
         </div>
         <!--Columns-->
+        <h2 class="mt-5">Digite o seu melhor e-mail:</h2>
+        <!--Floating labels-->
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">E-mail</label>
+        </div>
+        <!--Floating labels-->
+        <button type="button" class="btn btn-primary">Enviar</button>
 
     </div>
     <!--Container-->
